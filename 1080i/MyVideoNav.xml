@@ -129,7 +129,17 @@
                 <usecontrolcoords>true</usecontrolcoords>
                 <include>Def9000GroupList</include>
                 <scrolltime>0</scrolltime>
-
+                
+                
+                <control type="radiobutton" id="124547" description="Liste anzeigen">
+                    <include>DefContextButtonGradient</include>
+                    <align>left</align>
+                    <label>osd.fullscreeninfo</label>
+                    <selected>Skin.HasSetting(osd.fullscreeninfo)</selected>
+                    <onclick>Skin.ToggleSetting(osd.fullscreeninfo)</onclick>
+                </control>
+                
+                
                 <!-- Sort Options -->
                 <control type="button" id="9305">
                     <include>DefContextButtonGradient</include>
